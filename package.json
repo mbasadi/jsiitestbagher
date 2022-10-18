@@ -2,7 +2,7 @@
   "name": "jsiitestbagher",
   "repository": {
     "type": "git",
-    "url": "https://github.com/notificationapi-com/frontend/tree/develop_TS"
+    "url": "https://github.com/mbasadi/jsiitestbagher.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -11,7 +11,6 @@
     "compat": "npx projen compat",
     "compile": "npx projen compile",
     "default": "npx projen default",
-    "docgen": "npx projen docgen",
     "eject": "npx projen eject",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
@@ -46,7 +45,6 @@
     "jest-junit": "^13",
     "jsii": "^1.69.0",
     "jsii-diff": "^1.69.0",
-    "jsii-docgen": "^7.0.118",
     "jsii-pacmak": "^1.69.0",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^16",
