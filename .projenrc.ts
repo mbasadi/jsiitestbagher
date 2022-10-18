@@ -6,7 +6,7 @@ const project = new cdk.JsiiProject({
   name: 'jsiitestbagher',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/notificationapi-com/frontend/tree/develop_TS',
-
+  // publishToPypi: { distName: 'jsiitestbagher', module: 'jsiitestbagher' },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
