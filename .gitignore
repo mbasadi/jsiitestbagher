@@ -35,6 +35,7 @@ jspm_packages/
 junit.xml
 /coverage/
 !/.github/workflows/build.yml
+/dist/
 /dist/changelog.md
 /dist/version.txt
 !/.github/workflows/release.yml
