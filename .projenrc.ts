@@ -8,6 +8,7 @@ const project = new cdk.JsiiProject({
   repositoryUrl: 'https://github.com/mbasadi/jsiitestbagher.git',
   docgen: false,
   publishToPypi: { distName: 'jsiitestbagher', module: 'jsiitestbagher' },
+  publishToGo: { moduleName: 'jsiitestbagher', packageName: 'jsiitestbagher' },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */

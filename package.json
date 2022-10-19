@@ -15,6 +15,7 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "package-all": "npx projen package-all",
+    "package:go": "npx projen package:go",
     "package:js": "npx projen package:js",
     "package:python": "npx projen package:python",
     "post-compile": "npx projen post-compile",
@@ -106,6 +107,10 @@
       "python": {
         "distName": "jsiitestbagher",
         "module": "jsiitestbagher"
+      },
+      "go": {
+        "moduleName": "jsiitestbagher",
+        "packageName": "jsiitestbagher"
       }
     },
     "tsc": {
